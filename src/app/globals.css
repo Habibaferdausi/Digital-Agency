@@ -281,9 +281,35 @@ text-align: center;
   text-transform: capitalize;
 }
 
-
-
-
+.card-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+  gap:79px;
+ 
+}
+.card-title{
+  color:#272D38;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; 
+  text-transform: capitalize;
+}
+.card-subtitle{
+  color:#272D38;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+text-transform: capitalize;
+padding-top:10px;
+}
 
 
 @media screen and (max-width: 768px) {

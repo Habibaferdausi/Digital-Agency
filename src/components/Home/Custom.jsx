@@ -4,8 +4,8 @@ import React from 'react'
 export default function Custom() {
   return (
     <div className="layout-container margin-top-section margin-top">
-       <div className="margin-top">
-            <div className="flex-b margin-t">
+       <div className="">
+            <div className="flex-b ">
             <div className="margin-t">
             <h1 className="secondary-header margin-t ">Custome & Plugin <br/> Development</h1>
             
