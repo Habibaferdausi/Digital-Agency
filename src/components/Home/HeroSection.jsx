@@ -10,7 +10,7 @@ export default function HeroSection() {
         <Image src={Elips} alt="elips" className="image" width={679} height={679} />
         <div className='layout-container'>
           <div className="">
-            <div className="image-text flex-container">
+            <div className="image-text ">
                 <div  className=" flex-container">
                 <div><h1 className="section-header">Building digital products, brands & experiences</h1>
               <p className="p-text margin-top">Digital Agency is your online team management tool that is easy and prompt.</p>
