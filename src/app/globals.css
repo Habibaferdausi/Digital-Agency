@@ -54,3 +54,35 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+  .layout-container {
+    width: 100%;
+  }
+
+  .navbar {
+   align-items: center;
+    height: auto;
+  
+  }
+
+  .navbar .logopart,
+  .navbar .linkpart {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navbar {
+    margin-top: 20px; 
+  }
+
+  .logo {
+    font-size: 18px; 
+    text-align: start;
+  }
+
+  .nav-link {
+    font-size: 14px; 
+    padding-left: 5px; 
+  }
+}
