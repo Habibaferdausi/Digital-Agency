@@ -33,7 +33,7 @@ export default function Navbar() {
   return (
     <div>
       <div className='position-relative layout-container'>
-        <div className={`navbar ${scroll ? 'background-white' : ''}`}>
+        <div className={`navbar position-fixed display ${scroll ? 'background-white' : ''}`}>
           <div className='logopart'>
             <h1 className='logo'>Digital Agency</h1>
           </div>
